@@ -1,0 +1,59 @@
+{
+  "best_model": "Linear SVM",
+  "results": {
+    "Naive Bayes": {
+      "accuracy": 0.991,
+      "precision": 1.0,
+      "recall": 0.9329,
+      "f1": 0.9653,
+      "cv_f1": 0.9527,
+      "confusion_matrix": [
+        [
+          966,
+          0
+        ],
+        [
+          10,
+          139
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9892,
+      "precision": 0.9858,
+      "recall": 0.9329,
+      "f1": 0.9586,
+      "cv_f1": 0.9494,
+      "confusion_matrix": [
+        [
+          964,
+          2
+        ],
+        [
+          10,
+          139
+        ]
+      ]
+    },
+    "Linear SVM": {
+      "accuracy": 0.991,
+      "precision": 0.9793,
+      "recall": 0.953,
+      "f1": 0.966,
+      "cv_f1": 0.9609,
+      "confusion_matrix": [
+        [
+          963,
+          3
+        ],
+        [
+          7,
+          142
+        ]
+      ]
+    }
+  },
+  "total_samples": 5572,
+  "spam_count": 747,
+  "ham_count": 4825
+}
